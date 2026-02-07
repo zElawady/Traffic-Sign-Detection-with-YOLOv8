@@ -9,7 +9,7 @@ import numpy as np
 
 @st.cache_resource
 def load_model():
-    return YOLO("traffic_signs_model.pt")
+    return YOLO("./Traffic_signs_model.pt")
 
 model = load_model()
 
