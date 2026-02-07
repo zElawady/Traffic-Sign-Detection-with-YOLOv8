@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = ""
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
 
 import streamlit as st
 from ultralytics import YOLO
