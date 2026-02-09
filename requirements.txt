@@ -1,5 +1,6 @@
-streamlit
-ultralytics==8.3.0          # or try 8.2.98 or 8.1.34 if 8.3.0 fails
-opencv-python-headless      # ← very important: headless version!
-pillow
-numpy
+numpy==2.4.2
+opencv_python==4.11.0.86
+opencv_python_headless==4.11.0.86
+Pillow==12.1.0
+streamlit==1.54.0
+ultralytics==8.3.0
